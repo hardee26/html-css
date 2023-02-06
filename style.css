@@ -1,0 +1,143 @@
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .tshirt{
+  
+    margin: 10px;
+    height: 950px;
+    width: 900px;
+  }
+  .rectangle{
+    width:1000px;
+    height:1000px;
+    background:blue;
+}
+.ah1{
+  font-family: 'calibri';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 1px 1px 1px 1px;
+  margin: 2px 2px 2px 2px;
+}
+.ah2{
+  font-family: 'calibri';
+  font-style: italic;
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  
+}
+
+  
+  .image1 {
+    padding: 90px;
+    
+    width: 700px;
+    height: 850px;
+    position: relative;
+    
+   
+  }
+  .image2 {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 700px;
+    left: 1350px;
+    
+    border-color: rgb(244, 246, 246);
+    border-width: 90px;
+   
+  }
+  .ah{
+    margin-left: 1050px;
+    margin-top: 1px;
+  }
+  .tshirt1{
+    width: 1800px;
+  }
+  .text{
+    position: relative;
+    top: -500px;
+    bottom: 8px;
+    left: 40px;
+    font-size: medium;
+  }
+  .text1{
+    position: relative;
+    top: -490px;
+    left: 40px;
+    font-weight: bold;
+  }
+  .text2{
+    position: relative;
+    top: -480px;
+    left: 40px;
+    font-weight: lighter;
+  }
+  .container{
+    
+    position: relative;
+    top: -470px;
+    width: 300px;
+    height: 50px;
+    left: 40px;
+    box-shadow: 0 5px 15px rgba(190, 33, 33, 0.1);
+    border: 3px solid rgb(0, 0, 0);
+    border-width: 10px black;
+    
+  }
+  .text3:hover{
+    background-color: rgb(235, 23, 16);
+    display: flex;
+    justify-content: center;
+  }
+.container2{
+  width: 90%;
+  padding: 8px;
+  background: white;
+  margin: 10px auto;
+}
+.box{
+  padding: 1px;
+  width: 380px;
+  height: 400px;
+  background: rgb(195, 195, 154);
+  float: left;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+
+}
+.box:hover{
+  transform: scale(1.3);
+  background: #ff800a;
+  box-shadow: 2px 2px 2px #000;
+  z-index: 2;
+}
+.txtcls{
+  left: 300px;
+  float: left;
+  margin: 15px 95px;
+  font-family: arial;
+  font-weight: bold;
+}
+.txtcls2{
+  font-weight: lighter;
+  font-family: arial;
+  
+}
+.ahref {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.ahref:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+  text-transform: uppercase;
+}
